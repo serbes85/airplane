@@ -1,0 +1,10 @@
+/* layout settings */
+@import url('./layout/normalize.css');
+@import url('./layout/base.css');
+
+/* sections */
+@import url('./blocks/header.css');
+@import url('./blocks/content.css');
+@import url('./blocks/nav.css');
+@import url('./blocks/main-page.css');
+@import url('./blocks/footer.css');

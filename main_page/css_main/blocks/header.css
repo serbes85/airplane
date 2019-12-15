@@ -1,0 +1,37 @@
+.header__left,
+.header__right {
+  float: left;
+  width: 50%;
+}
+
+.header__right {
+  text-align: right;
+}
+
+
+.header {
+  background: #4b73b5;
+  position: relative;
+  padding-top: 12px;
+  padding-bottom: 6px;
+  margin-bottom: 33px;
+}
+
+.logo,
+.contacts {
+  display: inline-block;
+}
+
+.contacts__phone {
+  font-weight: bold;
+  font-size: 21px;
+  color: #fff;
+  text-decoration: none;
+}
+
+.time__work {
+  color: rgba(255, 255, 255, .7);
+  font-size: 14px;
+  font-weight: bold;
+}
+
