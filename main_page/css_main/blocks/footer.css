@@ -1,7 +1,17 @@
+
+ /*footer { 
+ height: 77px;
+ position: absolute;
+ bottom: 0;
+ left: 0;
+ right: 0;
+ background: rgba(0,0,0,.1);
+}*/
 .footer {
+  height: 77px;
   padding-top: 9px;
-  background: #2d2d2d;
-  margin-top: -87px;
+  background: #4b73b5;
+  margin-top: -50px;
 }
 
 .footer__text {
