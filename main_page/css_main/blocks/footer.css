@@ -1,109 +1,41 @@
 
- /*footer { 
- height: 77px;
- position: absolute;
- bottom: 0;
- left: 0;
- right: 0;
- background: rgba(0,0,0,.1);
-}*/
 .footer {
   height: 77px;
   padding-top: 9px;
   background: #4b73b5;
   margin-top: -50px;
+  line-height: 0.5;
 }
 
-.footer__text {
-  font-size: 14px;
-  font-weight: 300;
+.footer__left,
+.footer__center,
+.footer__right {
+   float: left;
+    
 }
 
-.footer__text a {
-  color: #fff;
-  font-weight: bold;
+.footer__left-txt {
+	font-weight: bold;
+	font-size: 14px;
+	color: #fff;
+	text-decoration: none;
+	padding-left: 20px;
 }
 
-.footer__col_mid {
-  text-align: center;
+.footer__center{
+	padding-left: 200px;
+	padding-right: 250px;
+	padding-bottom: 20px;
+	
 }
-
-.socials {
-  display: inline-block;
-  text-align: left;
-}
-
 .socials__title {
-  margin-bottom: 8px;
-  font-weight: bold;
+	font-weight: bold;
+	font-size: 14px;
+	color: #fff;
+	text-decoration: none;
+	
 }
-
 .socials__item {
-  display: inline-block;
-  margin-right: 8px;
-}
-
-.socials__item:last-child {
-  margin-right: 0;
-}
-
-.socials__link {
-  width: 20px;
-  height: 20px;
-  border-radius: 50%;
-  background-color: rgba(255, 255, 255, .7);
-  display: block;
-  background-position: center center;
-  background-repeat: no-repeat;
-}
-
-.socials__link:hover {
-  background-color: rgba(255, 255, 255, 1);
-}
-
-.socials__link_vk {
-  background-image: url('../img/icons/socials/vk.png')
-}
-
-.socials__link_fb {
-  background-image: url('../img/icons/socials/fb.png')
-}
-
-.socials__link_gp {
-  background-image: url('../img/icons/socials/google.png')
-}
-
-.socials__link_tw {
-  background-image: url('../img/icons/socials/twitter.png')
-}
-
-.socials__link_mail {
-  background-image: url('../img/icons/socials/mail.png')
-}
-
-.footer {
-  padding: 10px 0;
-}
-
-.footer__col_last {
-  text-align: right;
-}
-
-.bold-text {
-  font-weight: bold;
-}
-
-.footer .container {
-  font-size: 0;
-}
-
-.footer .container * {
-  font-size: 14px;
-}
-
-.footer__col {
-  display: inline-block;
-  width: 33.3%;
-  vertical-align: middle;
-  color: #fff;
+	display: inline-block;
+	
 }

@@ -10,16 +10,27 @@
 
 
 .header {
+  height: 77px;
   background: #4b73b5;
   position: relative;
-  padding-top: 12px;
+ /* padding-top: 12px;
   padding-bottom: 6px;
-  margin-bottom: 33px;
+  margin-bottom: 33px;*/
 }
 
 .logo,
 .contacts {
   display: inline-block;
+   
+}
+.logo {
+  padding-left: 10px;
+  padding-top: 20px;
+}
+.contacts {
+  padding-right: 10px;
+  padding-top: 8px;
+   
 }
 
 .contacts__phone {
@@ -27,6 +38,7 @@
   font-size: 21px;
   color: #fff;
   text-decoration: none;
+  
 }
 
 .time__work {
