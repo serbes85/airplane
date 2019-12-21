@@ -1,40 +1,50 @@
-.navbar {
-	width: 150px;
-	display: inline-block;
-    margin-top: 33px;
-    margin-left: 44px;	
+.left__sidebar{
+	float: left;
+	width: 10%;
+	padding-top: 35px;
 }
 
-.navbar a {
-	display: inline-block;
-	
-	
-}
+.navbar__list-item{
+	margin-bottom: 31px;
 
-.navbar img {
-	display: inline-block;
-	height: 12px;
-	line-height: 12px;
-}
-
-.navbar p {
-	display: inline-block;
-	
 }
 
 .link {
-	text-decoration: none;		
-	margin-right: 0px;
-	padding: 0px;
+	font-size: 12px;
+	font-weight: bold;
+	text-decoration: none;	
+	color: #4b73b5;
+	display: block;
+	text-transform: uppercase;
+}
+
+.link:hover {
+	color: #000;
+
+}
+
+
+.link:before {
+	content:"";
+	width: 18px;
+	height: 18px;
+	display: inline-block;
+	vertical-align: middle;
+	margin-left: 20px;
+
+}
+
+.link--main { 
+	background: url('/img_main/icon/main_icon.png') left center no-repeat;
 	
 }
 
-.navbar__list-text {
-	color: #4b73b5;
-	font-size: 12px;
-	font-weight: bold;
-		
+.link--comment {
+	background: url('/img_main/icon/feed_icon.png') left center no-repeat;
+
 }
 
+.link--team {
+	background: url('/img_main/icon/team_icon.png') left center no-repeat;
 
-
+}

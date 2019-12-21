@@ -4,65 +4,61 @@
 <head>
 	<meta charset="utf-8" />
 	<title>main page</title>
-	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
 	<link rel="apple-touch-icon" sizes="180x180" href="favicon/apple-touch-icon.png">
 	<link rel="icon" type="image/png" sizes="32x32" href="favicon/favicon-32x32.png">
 	<link rel="icon" type="image/png" sizes="16x16" href="favicon/favicon-16x16.png">
 	<link rel="manifest" href="/site.webmanifest">
 	<meta name="msapplication-TileColor" content="#da532c">
 	<meta name="theme-color" content="#ffffff">
-	<link href="css_main/layout/normalize.css" rel="stylesheet">
+	<!--<link href="css_main/layout/normalize.css" rel="stylesheet">-->
 	<link href="css_main/main.css" rel="stylesheet">
 </head>
 
 <body>
 	<div class="wrapper">
-		<div class="container">
-			<div class="container__content">
-				<header class="header clearfix">
-					<div class="header__left">
-						<a href="" class="logo">
-							<img class="logo__header" src="./img_main/logo_header.png" alt="logo air planet">
-						</a>
+		<header class="header clearfix">
+			<div class="container">
+				<div class="header__info">
+					<a href="" class="logo">
+						<img class="logo__header" src="./img_main/logo_header.png" alt="logo air planet">
+					</a>
+				</div>
+				<div class="header__info header__info--right">
+					<div class="contacts">
+						<a href="tel: +78000039210" class="contacts__phone">8 (800) 00-392-10 </a>
+						<div class="time__work" title="пн-вс:09:00-20:00 обед:14:00-14:30">График работы</div>
 					</div>
-					<div class="header__right">
-						<div class="contacts">
-							<address class="contacts">
-								<a href="tel: +78000039210" class="contacts__phone">8 (800) 00-392-10</a>
-								<div class="time__work" title="пн-вс:09:00-20:00 обед:14:00-14:30">График работы</div>
-							</address>
-						</div>
-					</div>
-				</header>
+				</div>
 			</div>
-		</div>
+		</header>
+
 		<div class="container">
 			<div class="container__content clearfix">
-				<div class="navbar">
-					<ul class="navbar__list">
-						<li class="navbar__list-item">
-							<a href="" target="_blank" class="link link--active">
-								<img src="./img_main/icon/main_icon.png" alt="logo_main" class="link__img">
-								<p class="navbar__list-text navbar__list-text-active">ГЛАВНАЯ</p>
-							</a>
-						</li>
-						<li class="navbar__list-item">
-							<a href="../comment/comment page.html" target="_blank" class="link">
-								<img src="./img_main/icon/feed_icon.png" alt="logo_comment" class="link__img">
-								<p class="navbar__list-text">ОТЗЫВЫ</p>
-							</a>
-						</li>
-						<li class="navbar__list-item">
-							<a href="" target="_blank" class="link">
-								<img src="./img_main/icon/team_icon.png" alt="logo_team" class="link__img">
-								<p class="navbar__list-text">ЭКИПАЖ</p>
-							</a>
-						</li>
-					</ul>
-				</div>
+				<aside class="left__sidebar">
+					<div class="navbar">
+						<ul class="navbar__list">
+							<li class="navbar__list-item">
+								<a href="" target="_blank" class="link link--main">
+									<!-- <img src="./img_main/icon/main_icon.png" alt="logo_main" class="link__img link__img--active">-->ГЛАВНАЯ
+								</a>
+							</li>
+							<li class="navbar__list-item">
+								<a href="../comment/comment page.html" target="_blank" class="link link--comment">
+									<!-- <img src="./img_main/icon/feed_icon.png" alt="logo_comment" class="link__img">-->ОТЗЫВЫ
+								</a>
+							</li>
+							<li class="navbar__list-item">
+								<a href="" target="_blank" class="link link--team">
+									<!-- <img src="./img_main/icon/team_icon.png" alt="logo_team" class="link__img">-->ЭКИПАЖ
+								</a>
+							</li>
+						</ul>
+					</div>
+				</aside>
 				<div class="page-content">
 					<div class="page-content__img-wrapper">
-						<img src="./img_main/photo.png" alt="airplane" class="page-content__img">
+						<!-- <img src="./img_main/photo.png" alt="airplane" class="page-content__img"> -->
 					</div>
 					<div class="page-content__section">
 						<div class="section clearfix">
@@ -130,22 +126,16 @@
 												<img src="./img_main/news/night_flying.png" alt="night_flying"
 													class="news__img">
 											</div>
-											<time class="news__date">12.10.2016</time>
-											<p class="news__title">Ночные перелеты дешевле!</p>
-											<p class="news__description">
-												Летящий в ночном небе самолет — зрелище загадочное и романтическое.
-												Крылатая машина величественно плывет в вышине, мерцая разноцветными
-												огнями, и почему-то
-												кажется, что она наполнена удивительными людьми, спешащими далеко-далеко
-												по
-												очень важным делам.
-											</p>
-											<ul class="news__list">
-												<li class="news__list-item"></li>
-												<li class="news__list-item"></li>
-												<li class="news__list-item"></li>
-											</ul>
-											<p class="news__cost"></p>
+											<div class="news__description">
+												<time class="news__date">12.10.2016</time>
+												<p class="news__title">Ночные перелеты дешевле!</p>
+												<p>Летящий в ночном небе самолет — зрелище загадочное и романтическое.
+													Крылатая машина величественно плывет в вышине, мерцая разноцветными
+													огнями, и почему-то кажется, что она наполнена удивительными людьми,
+													спешащими далеко-далеко
+													по очень важным делам.
+												</p>
+											</div>
 										</div>
 									</li>
 									<li class="list__item">
@@ -153,31 +143,35 @@
 											<div class="news__img-wrapper">
 												<img src="./img_main/news/georgia.png" alt="georgia" class="news__img">
 											</div>
-											<time class="news__date">01.02.2016</time>
-											<p class="news__title">Путешествие в Грузию стало доступнее</p>
-											<p class="news__description">
-												Экскурсии по Грузии в 2017 году от русских гидов: самые интересные
-												маршруты
-												в Грузии от профессиональных гидов. Обзорные, пешеходные, автомобильные,
-												тематические экскурсии по интересным городам и курортам Грузии. Не
-												пропустите
-												такую возможность!
-											</p>
+											<div class="news__description">
+												<time class="news__date">01.02.2016</time>
+												<p class="news__title">Путешествие в Грузию стало доступнее</p>
+												<p>Экскурсии по Грузии в 2017 году от русских гидов: самые интересные
+													маршруты в Грузии от профессиональных гидов. Обзорные, пешеходные,
+													автомобильные,
+													тематические экскурсии по интересным городам и курортам Грузии. Не
+													пропустите такую возможность!
+												</p>
+											</div>
 										</div>
 									</li>
 									<li class="list__item">
 										<div class="news">
 											<div class="news__img-wrapper">
-												<img src="./img_main/news/children_tickets.png" alt="georgia" class="news__img">
+												<img src="./img_main/news/children_tickets.png" alt="georgia"
+													class="news__img">
 											</div>
-											<time class="news__date">22.12.2015</time>
-											<p class="news__title">Детские авиабилеты доступны для бизнес-класса</p>
-											<p class="news__description">
-												Путешествие на самолете с детьми - небольшое испытание для родителей.
-												Но это не экстремальное приключение, а обычный цивилизованный поход.
-												Тем более, различные авиакомпании стараются помочь скидками на детские
-												авиабилеты, специальным питанием и другими услугами на борту лайнера.
-											</p>
+											<div class="news__description">
+												<time class="news__date">22.12.2015</time>
+												<p class="news__title">Детские авиабилеты доступны для бизнес-класса</p>
+												<p>Путешествие на самолете с детьми - небольшое испытание для родителей.
+													Но это не экстремальное приключение, а обычный цивилизованный поход.
+													Тем более, различные авиакомпании стараются помочь скидками на
+													детские
+													авиабилеты, специальным питанием и другими услугами на борту
+													лайнера.
+												</p>
+											</div>
 										</div>
 									</li>
 								</ul>
@@ -200,26 +194,25 @@
 						</ul>
 					</div>
 				</div>
-
 			</div>
 		</div>
 	</div>
-	<div class="container">
-		<div class="container__content">
-			<footer class="footer clearfix">
-				<div class="footer__left">
-					<p class="footer__left-txt">Сделано с любовью и старанием</p> 
-					<p class="footer__left-txt">на курсе &#171;HTML + CSS&#187; в <b>LoftSchool</b>.</p> 
-					<p class="footer__left-txt">Автор работы:<b>Бескровный Сергей</b></p>
+	<div class="footer__wrap">
+		<footer class="footer clearfix">
+			<div class="container">
+				<div class="footer__info footer__info--left">
+					<p class="footer__info-txt">Сделано с любовью и старанием</p>
+					<p class="footer__info-txt">на курсе &#171;HTML + CSS&#187; в <b>LoftSchool</b>.</p>
+					<p class="footer__info-txt">Автор работы:<b>Бескровный Сергей</b></p>
 				</div>
-				<div class="footer__center">
+				<div class="footer__info footer__info--center">
 					<a href="" class="logo">
 						<img class="footer__logo" src="./img_main/logo_header.png" alt="logo air planet">
 					</a>
 				</div>
-				<div class="footer__right">
+				<div class="footer__info footer__info--right">
 					<p class="socials__title">Наши социальные сети</p>
-					<div class="footer__right-socials">
+					<div class="footer__info-socials">
 						<ul class="socials">
 							<li class="socials__item">
 								<a href=""><img class="socials__link" src="./img_main/social network/vk.png"></a>
@@ -239,8 +232,8 @@
 						</ul>
 					</div>
 				</div>
-			</footer>
-		</div>
+			</div>
+		</footer>
 	</div>
 </body>
 

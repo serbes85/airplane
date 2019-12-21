@@ -1,53 +1,40 @@
-.header__left,
-.header__right {
-  float: left;
-  width: 50%;
-}
-
-.header__right {
-  text-align: right;
-}
-
-
 .header {
-  height: 77px;
-  background: #4b73b5;
-  position: relative;
- /* padding-top: 12px;
-  padding-bottom: 6px;
-  margin-bottom: 33px;*/
+	background: #4b73b5;
+	min-height: 77px;
+	margin-bottom: 10px;
+ 
 }
 
-.logo,
-.contacts {
-  display: inline-block;
-   
+.header__info {
+	float: left;
+	width: calc(100% / 2);
+	padding-top: 20px;
+
 }
-.logo {
-  padding-left: 10px;
-  padding-top: 20px;
+
+.header__info--right {
+	text-align: right;
 }
+
 .contacts {
-  padding-right: 10px;
-  padding-top: 8px;
+	display: inline-block; 
+	vertical-align: top; 
    
 }
 
 .contacts__phone {
-  font-weight: bold;
-  font-size: 21px;
-  color: #fff;
-  text-decoration: none;
+	font-weight: bold;
+	font-size: 21px;
+	color: #fff;
+	text-decoration: none;
   
 }
 
 .time__work {
-  color: rgba(255, 255, 255, .7);
-  font-size: 14px;
-  font-weight: bold;
+	color: rgba(255, 255, 255, .7);
+	font-size: 14px;
+	font-weight: bold;
 }
-
-
 
 
 
