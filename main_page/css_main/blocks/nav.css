@@ -1,10 +1,10 @@
-.left__sidebar{
+.aside {
 	float: left;
 	width: 10%;
 	padding-top: 35px;
 }
 
-.navbar__list-item{
+.aside__left-list__item {
 	margin-bottom: 31px;
 
 }

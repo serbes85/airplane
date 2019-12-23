@@ -6,5 +6,7 @@
 @import url('./blocks/header.css');
 @import url('./blocks/content.css');
 @import url('./blocks/nav.css');
+@import url('./blocks/tariff.css');
+@import url('./blocks/news.css');
 @import url('./blocks/main-page.css');
 @import url('./blocks/footer.css');

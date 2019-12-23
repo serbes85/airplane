@@ -1,31 +1,32 @@
-.footer__wrap {
-	font-size: 0px;
-	
-}
-
 .footer {
 	background: #4b73b5; 
-	min-height: 77px; 
-	margin-top: -77px; 
-					
-}
-
-.footer__info {
-	float: left;
-	width: calc(100% / 3);
+	width: 100%;
+	padding: 20px;
+	font-size: 0;
 			
 }
 
-
-.footer__info-txt {
-	font-weight: bold;
+.footer__info {
+	width: calc(100% / 3);
+	display: inline-block;
 	font-size: 14px;
 	color: #fff;
 	text-decoration: none;
-	line-height: 0.4;
-	
+	vertical-align: middle;
+				
+}
+
+.footer__info-txt {
+	font-weight: bold;
+	width: 60%;
+				
 }
 	
+
+.footer__info--center {
+	text-align: center;
+}
+
 .socials__title {
 	font-weight: bold;
 	font-size: 14px;
@@ -35,13 +36,8 @@
 }
 .socials__item {
 	display: inline-block;
-	margin-left: 20px;
+	margin-left: 12px;
 	
 	
 }
 
-.socials__link {
-	width: 18px;
-	height: 18px;
-	background-color: azure;
-}

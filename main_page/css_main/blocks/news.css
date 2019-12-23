@@ -1,0 +1,45 @@
+.list__item--colum {
+	display: block;
+	margin-bottom: 50px;		
+}
+
+.news {
+	display: inline-block;
+		
+}
+
+.news__img {
+	width: 160px;
+	height: 160px;
+	border-radius: 50%;
+  
+}
+
+.news__description {
+	color: #221f1f;
+	font-size: 18px; 
+	font-weight: 400;
+	line-height: 1.5;
+	width: 80%;	
+	overflow: hidden;
+	 	
+}
+
+.news__date {
+	font-size: 14px; 
+	font-weight: 400;
+	
+}
+
+.news__title {
+	font-size: 18px; 
+	font-weight: 400;
+		
+}
+
+.news__img-wrapper {
+	float: left;
+	width: 20%;
+	
+		
+}

@@ -17,8 +17,8 @@
 
 <body>
 	<div class="wrapper">
-		<header class="header clearfix">
-			<div class="container">
+		<header class="header">
+			<div class="container clearfix">
 				<div class="header__info">
 					<a href="" class="logo">
 						<img class="logo__header" src="./img_main/logo_header.png" alt="logo air planet">
@@ -35,20 +35,20 @@
 
 		<div class="container">
 			<div class="container__content clearfix">
-				<aside class="left__sidebar">
-					<div class="navbar">
-						<ul class="navbar__list">
-							<li class="navbar__list-item">
+				<aside class="aside">
+					<div class="aside__left">
+						<ul class="aside__left-list">
+							<li class="aside__left-list__item">
 								<a href="" target="_blank" class="link link--main">
 									<!-- <img src="./img_main/icon/main_icon.png" alt="logo_main" class="link__img link__img--active">-->ГЛАВНАЯ
 								</a>
 							</li>
-							<li class="navbar__list-item">
+							<li class="aside__left-list__item">
 								<a href="../comment/comment page.html" target="_blank" class="link link--comment">
 									<!-- <img src="./img_main/icon/feed_icon.png" alt="logo_comment" class="link__img">-->ОТЗЫВЫ
 								</a>
 							</li>
-							<li class="navbar__list-item">
+							<li class="aside__left-list__item">
 								<a href="" target="_blank" class="link link--team">
 									<!-- <img src="./img_main/icon/team_icon.png" alt="logo_team" class="link__img">-->ЭКИПАЖ
 								</a>
@@ -58,14 +58,14 @@
 				</aside>
 				<div class="page-content">
 					<div class="page-content__img-wrapper">
-						<!-- <img src="./img_main/photo.png" alt="airplane" class="page-content__img"> -->
+						<!--<img src="./img_main/photo.png" alt="airplane" class="page-content__img">-->
 					</div>
 					<div class="page-content__section">
 						<div class="section clearfix">
 							<h2 class="section__title">Тарифы</h2>
 							<div class="section__content">
 								<ul class="list list--colum">
-									<li class="list__item">
+									<li class="list__item list__item--rows">
 										<div class="tariff">
 											<div class="tariff__img-wrapper">
 												<img src="./img_main/title/flower.png" alt="flower" class="tariff__img">
@@ -80,7 +80,7 @@
 											<p class="tariff__cost">$19</p>
 										</div>
 									</li>
-									<li class="list__item">
+									<li class="list__item list__item--rows">
 										<div class="tariff">
 											<div class="tariff__img-wrapper">
 												<img src="./img_main/title/star.png" alt="star" class="tariff__img">
@@ -95,7 +95,7 @@
 											<p class="tariff__cost">$39</p>
 										</div>
 									</li>
-									<li class="list__item">
+									<li class="list__item list__item--rows">
 										<div class="tariff">
 											<div class="tariff__img-wrapper">
 												<img src="./img_main/title/painter-palette.png" alt="painter-palette"
@@ -120,7 +120,7 @@
 							<h2 class="section__title">Последние новости!</h2>
 							<div class="section__content">
 								<ul class="list list--colum">
-									<li class="list__item">
+									<li class="list__item list__item--colum">
 										<div class="news">
 											<div class="news__img-wrapper">
 												<img src="./img_main/news/night_flying.png" alt="night_flying"
@@ -138,7 +138,7 @@
 											</div>
 										</div>
 									</li>
-									<li class="list__item">
+									<li class="list__item list__item--colum">
 										<div class="news">
 											<div class="news__img-wrapper">
 												<img src="./img_main/news/georgia.png" alt="georgia" class="news__img">
@@ -155,7 +155,7 @@
 											</div>
 										</div>
 									</li>
-									<li class="list__item">
+									<li class="list__item list__item--colum">
 										<div class="news">
 											<div class="news__img-wrapper">
 												<img src="./img_main/news/children_tickets.png" alt="georgia"
@@ -179,62 +179,78 @@
 						</div>
 					</div>
 					<div class="pagination">
-						<span class="pagination__title"></span>
+						<span class="pagination__title">Страница 1 из 7</span>
 						<ul class="pagination__list">
-							<li class="pagination__list-item paginator__list-item--active">Страница 1 из 7</li>
-							<li class="pagination__list-item">&lt;</li>
-							<li class="pagination__list-item">1</li>
-							<li class="pagination__list-item">2</li>
-							<li class="pagination__list-item">3</li>
-							<li class="pagination__list-item">4</li>
-							<li class="pagination__list-item">5</li>
-							<li class="pagination__list-item">6</li>
-							<li class="pagination__list-item">7</li>
-							<li class="pagination__list-item">&gt;</li>
+							<li class="pagination__list-item">
+								<a href="" target="_blank" class="pagination__list-item">&lt;</a>
+							</li>
+							<li class="pagination__list-item">
+								<a href="" target="_blank" class="pagination__list-item">1</a>
+							</li>
+							<li class="pagination__list-item">
+								<a href="" target="_blank" class="pagination__list-item">2</a>
+							</li>
+							<li class="pagination__list-item">
+								<a href="" target="_blank" class="pagination__list-item">3</a>
+							</li>
+							<li class="pagination__list-item">
+								<a href="" target="_blank" class="pagination__list-item">4</a>
+							</li>
+							<li class="pagination__list-item">
+								<a href="" target="_blank" class="pagination__list-item">5</a>
+							</li>
+							<li class="pagination__list-item">
+								<a href="" target="_blank" class="pagination__list-item">6</a>
+							</li>
+							<li class="pagination__list-item">
+								<a href="" target="_blank" class="pagination__list-item">7</a>
+							</li>
+							<li class="pagination__list-item">
+								<a href="" target="_blank" class="pagination__list-item">&gt;</a>
+							</li>
 						</ul>
 					</div>
 				</div>
 			</div>
 		</div>
 	</div>
-	<div class="footer__wrap">
-		<footer class="footer clearfix">
-			<div class="container">
-				<div class="footer__info footer__info--left">
-					<p class="footer__info-txt">Сделано с любовью и старанием</p>
-					<p class="footer__info-txt">на курсе &#171;HTML + CSS&#187; в <b>LoftSchool</b>.</p>
-					<p class="footer__info-txt">Автор работы:<b>Бескровный Сергей</b></p>
-				</div>
-				<div class="footer__info footer__info--center">
-					<a href="" class="logo">
-						<img class="footer__logo" src="./img_main/logo_header.png" alt="logo air planet">
-					</a>
-				</div>
-				<div class="footer__info footer__info--right">
-					<p class="socials__title">Наши социальные сети</p>
-					<div class="footer__info-socials">
-						<ul class="socials">
-							<li class="socials__item">
-								<a href=""><img class="socials__link" src="./img_main/social network/vk.png"></a>
-							</li>
-							<li class="socials__item">
-								<a href=""><img class="socials__link" src="./img_main/social network/fb.png"></a>
-							</li>
-							<li class="socials__item">
-								<a href=""><img class="socials__link" src="./img_main/social network/google.png"></a>
-							</li>
-							<li class="socials__item">
-								<a href=""><img class="socials__link" src="./img_main/social network/twitter.png"></a>
-							</li>
-							<li class="socials__item">
-								<a href=""><img class="socials__link" src="./img_main/social network/mail.png"></a>
-							</li>
-						</ul>
-					</div>
+	<footer class="footer">
+		<div class="container container--footer">
+			<div class="footer__info footer__info--left">
+				<p class="footer__info-txt">Сделано с любовью и старанием на курсе &#171;HTML + CSS&#187; в
+					<b>LoftSchool</b>.
+					Автор работы:<b>Бескровный Сергей</b>
+				</p>
+			</div>
+			<div class="footer__info footer__info--center">
+				<a href="" class="logo">
+					<img class="footer__logo" src="./img_main/logo_header.png" alt="logo air planet">
+				</a>
+			</div>
+			<div class="footer__info footer__info--right">
+				<p class="socials__title">Наши социальные сети</p>
+				<div class="footer__info-socials">
+					<ul class="socials">
+						<li class="socials__item">
+							<a href=""><img class="socials__link" src="./img_main/social network/vk.png"></a>
+						</li>
+						<li class="socials__item">
+							<a href=""><img class="socials__link" src="./img_main/social network/fb.png"></a>
+						</li>
+						<li class="socials__item">
+							<a href=""><img class="socials__link" src="./img_main/social network/google.png"></a>
+						</li>
+						<li class="socials__item">
+							<a href=""><img class="socials__link" src="./img_main/social network/twitter.png"></a>
+						</li>
+						<li class="socials__item">
+							<a href=""><img class="socials__link" src="./img_main/social network/mail.png"></a>
+						</li>
+					</ul>
 				</div>
 			</div>
-		</footer>
-	</div>
+		</div>
+	</footer>
 </body>
 
 </html>
