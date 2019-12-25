@@ -35,16 +35,16 @@
 }
 
 .link--main { 
-	background: url('/img_main/icon/main_icon.png') left center no-repeat;
+	background: url('../../img_main/icon/main_icon.png') left center no-repeat;
 	
 }
 
 .link--comment {
-	background: url('/img_main/icon/feed_icon.png') left center no-repeat;
+	background: url('../../img_main/icon/feed_icon.png') left center no-repeat;
 
 }
 
 .link--team {
-	background: url('/img_main/icon/team_icon.png') left center no-repeat;
+	background: url('../../img_main/icon/team_icon.png') left center no-repeat;
 
 }

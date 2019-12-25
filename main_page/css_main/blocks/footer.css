@@ -17,9 +17,10 @@
 }
 
 .footer__info-txt {
-	font-weight: bold;
-	width: 60%;
-				
+	font-weight: 400;
+	float: left;
+	width: 75%;
+	
 }
 	
 
@@ -27,17 +28,9 @@
 	text-align: center;
 }
 
-.socials__title {
-	font-weight: bold;
-	font-size: 14px;
-	color: #fff;
-	text-decoration: none;
-	
-}
-.socials__item {
-	display: inline-block;
-	margin-left: 12px;
-	
+.footer__info--right {
+	float: right;
+	width: 20%;
 	
 }
 
