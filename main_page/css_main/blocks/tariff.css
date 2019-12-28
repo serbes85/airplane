@@ -1,23 +1,24 @@
 .list {
 	font-size: 0px;
-	margin-bottom: 100px;
+	margin-bottom: 40px;
 	
-}
-
-.list--colum{
-	width: 100%;
-	position: relative;
 }
 
 .list__offer {
-	width: 18%;
-	margin-left: 10%;
-	transform: translate(70%, -5%);
-	top: 50%;
-	left: 50%;
+	width: 33.33%;
+	padding: 48px;
 	display: inline-block;
 	vertical-align: middle;
-	
+		
+}
+
+.list__offer--frame {
+	border: 1px solid #e8e9ed;
+}
+
+.tariff {
+	text-align: center;
+
 }
 
 .tariff__img-wrapper {
@@ -27,6 +28,7 @@
 	background-color: #4b73b5;
 	border-radius: 50%;
 	margin-bottom: 30px;
+	display: inline-block;
 	
 }
 
@@ -56,8 +58,27 @@
 		
 }
 
+.tariff__list-item-txt {
+	display: inline-block;
+	width: 80%;
+	vertical-align: middle;
+}
+
+.tariff__list-item:before {
+	content: "";
+	display: inline-block;
+	width: 4px;
+	height: 4px;
+	border-radius: 50%;
+	background-color: black;
+	vertical-align: middle;
+	margin-right: 15px;
+
+}
+
 .tariff__list {
 	margin-bottom: 35px;
+	text-align: left;
 
 }
 
