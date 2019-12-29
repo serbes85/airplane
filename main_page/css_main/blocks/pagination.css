@@ -37,6 +37,7 @@
 .pagination__item {
   display: inline-block;
   vertical-align: middle;
+  
 }
 
 .pagination__link {
