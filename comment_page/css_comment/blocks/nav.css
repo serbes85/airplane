@@ -1,0 +1,72 @@
+.nav {
+	float: left;
+	width: 10%;
+	
+}
+
+.nav__icon {
+  display: inline-block;
+  vertical-align: middle;
+  margin-right: 10px;
+}
+
+.nav__icon_main {
+  background: url('../../img_comment/icon/main.png') 0 0 no-repeat;
+  width: 24px;
+  height: 18px;
+}
+
+.nav__icon_feed {
+  background: url('../../img_comment/icon/feed.png') 0 0 no-repeat;
+  width: 24px;
+  height: 18px;
+}
+
+.nav__icon_team {
+  background: url('../../img_comment/icon/team.png') 0 0 no-repeat;
+  width: 24px;
+  height: 18px;
+}
+
+.nav__link:hover .nav__icon_main {
+  background-image: url('../../img_comment/icon/main-hover.png');
+}
+
+.nav__link:hover .nav__icon_feed {
+  background-image: url('../../img_comment/icon/feed-hover.png');
+}
+
+.nav__link:hover .nav__icon_team {
+  background-image: url('../../img_comment/icon/team-hover.png');
+}
+
+.nav__link {
+  text-decoration: none;
+}
+
+.nav__item {
+  margin-bottom: 26px;
+}
+
+.nav__text {
+  display: inline-block;
+  vertical-align: middle;
+  font-weight: bold;
+  font-size: 12px;
+  text-transform: uppercase;
+  color: #4b73b5;
+}
+
+.nav__list {
+  padding-left: 5px;
+}
+
+
+.nav__link:hover .nav__text,
+.nav__link_active .nav__text {
+  color: #000;
+}
+
+.nav__link_active .nav__icon {
+  background-image: url('../../img_comment/icon/feed-hover.png');
+}

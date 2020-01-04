@@ -3,107 +3,236 @@
 
 <head>
 	<meta charset="utf-8" />
-	<title>comment page</title>
+	<title>main page</title>
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
 	<link rel="apple-touch-icon" sizes="180x180" href="favicon/apple-touch-icon.png">
 	<link rel="icon" type="image/png" sizes="32x32" href="favicon/favicon-32x32.png">
 	<link rel="icon" type="image/png" sizes="16x16" href="favicon/favicon-16x16.png">
 	<link rel="manifest" href="/site.webmanifest">
 	<meta name="msapplication-TileColor" content="#da532c">
 	<meta name="theme-color" content="#ffffff">
-	<link href="css_comment/reset_comment.css" rel="stylesheet">
-	<link href="css_comment/style_comment.css" rel="stylesheet">
+	<!--<link href="css_main/layout/normalize.css" rel="stylesheet">-->
+	<link href="css_comment/main.css" rel="stylesheet">
 </head>
 
 <body>
 	<div class="wrapper">
 		<header class="header">
-			<a href="" class="logo">
-				<img class="logo_header" src="./img_comment/logo_header.png" alt="logo_air_planet">
-			</a>
-			<div class="contacts">
-				<a href="tel: +78000039210" class="contact_phone">8(800)00-392-10</a>
-				<div class="time_work" title="пн-вс:09:00-20:00 обед:14:00-14:30">График работы</div>
-			</div>
-		</header><!-- .header-->
-
-		<div class="middle">
-			<div class="container">
-				<main class="content">
-					<section class="block_comment">
-						<h1 class="comment_page_title">Отзывы</h1>
-						<ul>
-							<li>
-								<div class="people_comment_wrapper">
-									<img class="people_comment" src="./img_comment/people/irina.png">
-								</div>
-								<p><time>12.10.2016</time></p>
-								<p>Ирина Парамалчук</p>
-								<div class="description_comment_wrapper">
-									<article>Классный полет, трясло первые полчаса так, что я боялась отстегнуть ремни.
-										Слава Богу, ничего не случилось, но мне даже валерьянка не помогла, так страшно
-										было. Рекомендую эту компанию, но лучше доплатить и лететь с комфортом.
-									</article>
-								</div>
+			<div class="container clearfix">
+				<div class="header__info">
+					<a href="" class="logo">
+						<img class="logo__header" src="./img_comment/logo_header.png" alt="logo air planet">
+					</a>
+				</div>
+				<div class="header__info header__info--right">
+					<div class="contacts">
+						<ul class="contacts__nav">
+							<li class="contacts__nav-item">
+								<a href="tel: +78000039210" class="contacts__phone">8 (800) 00-392-10 </a>
 							</li>
-							<li>
-								<div class="people_comment_wrapper">
-									<img class="people_comment" src="./img_comment/people/alexandr.png">
-								</div>
-								<p><time>01.02.2016</time></p>
-								<p>Александр Бельков</p>
-								<div class="description_comment_wrapper">
-									<article>Все понравилось, вежливые стюардессы, вовремя убирают, напитки предлагали 2
-										раза, а еду – 1 раз. Единственное, что не понравилось, как то мало места для
-										ног, но с этим у меня часто проблема, рост 2,1м.
-									</article>
-								</div>
-							</li>
-							<li>
-								<div class="people_comment_wrapper">
-									<img class="people_comment" src="./img_comment/people/igor.png">
-								</div>
-								<p><time>22.12.2015</time></p>
-								<p>Игорь Николаенко</p>
-								<div class="description_comment_wrapper">
-									<article>Кормили супер вообще! Сказали, что это из-за того, что полет менее 2,5
-										часов. Но прибавьте к этому время регистрации в аэропорту. Летел с женой и мы
-										очень проголодались. Просто имейте это ввиду, берите с собой хотя бы бутерброды,
-										чипсы какие-то или печенье.
-									</article>
-								</div>
+							<li class="contacts__nav-item">
+								<a href="" class="contacts__link">График работы </a>
+								<ul class="dropdown">
+									<li class="triangle"></li>
+									<li class="dropdown__item dropdown__item--work">пн-вс:09:00-20:00</li>
+									<li class="dropdown__item">обед:14:00-14:30</li>
+								</ul>
 							</li>
 						</ul>
-					</section>
-				</main><!-- .content -->
-			</div><!-- .container-->
+					</div>
+				</div>
+			</div>
+		</header>
 
-			<aside class="left-sidebar">
-				<nav>
-					<ul>
-						<li>
-							<a href="//google.com"><img class="logo_sidebar"
-									src="./img_comment/icon/main_icon.png">ГЛАВНАЯ </a>
+		<div class="container">
+			<div class="container__content clearfix">
+				<aside class="sidebar">
+					<nav class="nav">
+						<ul class="nav__list">
+							<li class="nav__item">
+								<a href="../main_page/main page.html" target="_blank" class="nav__link">
+									<div class="nav__icon nav__icon_main"></div>
+									<div class="nav__text">ГЛАВНАЯ</div>
+								</a>
+							</li>
+							<li class="nav__item">
+								<a href="" target="_blank" class="nav__link nav__link_active">
+									<div class="nav__icon nav__icon_feed"></div>
+									<div class="nav__text">ОТЗЫВЫ</div>
+								</a>
+							</li>
+							<li class="nav__item">
+								<a href="" target="_blank" class="nav__link">
+									<div class="nav__icon nav__icon_team"></div>
+									<div class="nav__text">ЭКИПАЖ</div>
+								</a>
+							</li>
+						</ul>
+					</nav>
+				</aside>
+				<div class="page-content">
+					<nav class="breadcrumbs">
+						<ul class="breadcrumbs__list">
+							<li class="breadcrumbs__item">
+								<a href="../main_page/main page.html" class="breadcrumbs__item-link">Главная</a>
+							</li>
+							<li class="breadcrumbs__item">
+								<a href="#" class="breadcrumbs__item-link breadcrumbs__item-link_active">Отзывы</a>
+							</li>
+						</ul>
+					</nav>
+					<div class="page-content__section">
+						<div class="section">
+							<h2 class="section__title">Отзывы</h2>
+							<div class="section__content">
+								<ul class="list list--colum">
+									<li class="list__item list__item--colum">
+										<div class="news">
+											<div class="news__img-wrapper">
+												<img src="./img_comment/people/irina.png" alt="foto_person"
+													class="news__img">
+											</div>
+											<div class="news__description">
+												<time class="news__date">12.10.2016</time>
+												<p class="news__title">Ирина Паламарчук</p>
+												<p>Классный полет, трясло первые полчаса так, что я боялась отстегнуть
+													ремни.
+													Слава Богу, ничего не случилось, но мне даже валерьянка не помогла,
+													так страшно
+													было. Рекомендую эту компанию, но лучше доплатить и лететь с
+													комфортом.
+												</p>
+											</div>
+										</div>
+									</li>
+									<li class="list__item list__item--colum">
+										<div class="news">
+											<div class="news__img-wrapper">
+												<img src="./img_comment/people/alexandr.png" alt="foto_person"
+													class="news__img">
+											</div>
+											<div class="news__description">
+												<time class="news__date">01.02.2016</time>
+												<p class="news__title">Александр Бельков</p>
+												<p>Все понравилось, вежливые стюардессы, вовремя убирают, напитки
+													предлагали 2 раза, а еду – 1 раз. Единственное, что не понравилось,
+													как то мало
+													места для ног, но с этим у меня часто проблема, рост 2,1м.
+												</p>
+											</div>
+										</div>
+									</li>
+									<li class="list__item list__item--colum">
+										<div class="news">
+											<div class="news__img-wrapper">
+												<img src="./img_comment/people/igor.png" alt="foto_person"
+													class="news__img">
+											</div>
+											<div class="news__description">
+												<time class="news__date">22.12.2015</time>
+												<p class="news__title">Игорь Николаенко</p>
+												<p>Кормили супер вообще! Сказали, что это из-за того, что полет менее
+													2,5 часов. Но прибавьте к этому время регистрации в аэропорту. Летел
+													с
+													женой и мы очень проголодались. Просто имейте это ввиду, берите с
+													собой хотя бы
+													бутерброды, чипсы какие-то или печенье.
+												</p>
+											</div>
+										</div>
+									</li>
+									<li class="list__item list__item--colum">
+										<div class="news">
+											<div class="news__img-wrapper">
+												<img src="./img_comment/people/anastasia.png" alt="foto_person"
+													class="news__img">
+											</div>
+											<div class="news__description">
+												<time class="news__date">14.08.2015</time>
+												<p class="news__title">Анастасия Порядная</p>
+												<p>За такую цену просто все отлично! Кто не доволен, платите в 2 раза
+													больше за аналогичные рейсы. Мне понравилось, что на борту было
+													чисто, я аллергик
+													и всегда чутко реагирую на пыль. Спасибо за полет! Рекомендую!
+												</p>
+											</div>
+										</div>
+									</li>
+								</ul>
+							</div>
+						</div>
+					</div>
+					<div class="pagination">
+						<span class="pagination__title">Страница 1 из 7</span>
+						<a href="" class="pagination__btn pagination__btn_prev pagination__btn_active">
+							< </a> <ul class="pagination__list">
+								<li class="pagination__item">
+									<a href="" target="_blank" class="pagination__link">1</a>
+								</li>
+								<li class="pagination__item pagination__item_active">
+									<a href="" target="_blank" class="pagination__link">2</a>
+								</li>
+								<li class="pagination__item">
+									<a href="" target="_blank" class="pagination__link">3</a>
+								</li>
+								<li class="pagination__item">
+									<a href="" target="_blank" class="pagination__link">4</a>
+								</li>
+								<li class="pagination__item">
+									<a href="" target="_blank" class="pagination__link">5</a>
+								</li>
+								<li class="pagination__item">
+									<a href="" target="_blank" class="pagination__link">6</a>
+								</li>
+								<li class="pagination__item">
+									<a href="" target="_blank" class="pagination__link">7</a>
+								</li>
+								</ul>
+								<a href="" class="pagination__btn pagination__btn_next">></a>
+					</div>
+
+				</div>
+			</div>
+		</div>
+	</div>
+	<footer class="footer">
+		<div class="container container--footer">
+			<div class="footer__info footer__info--left">
+				<p class="footer__info-txt">Сделано с любовью и старанием на курсе &#171;HTML + CSS&#187; в
+					<b>LoftSchool</b>.
+					Автор работы:<b>Бескровный Сергей</b>
+				</p>
+			</div>
+			<div class="footer__info footer__info--center">
+				<a href="" class="logo">
+					<img class="footer__logo" src="./img_comment/logo_header.png" alt="logo air planet">
+				</a>
+			</div>
+			<div class="footer__info footer__info--right">
+				<p class="socials__title">Наши социальные сети</p>
+				<div class="footer__info-socials">
+					<ul class="socials__list">
+						<li class="socials__item">
+							<a href="" class="socials__link socials__link_vk"></a>
 						</li>
-						<li>
-							<a href="//google.com"><img class="logo_sidebar"
-									src="./img_comment/icon/feed_icon.png">ОТЗЫВЫ</a>
+						<li class="socials__item">
+							<a href="" class="socials__link socials__link_fb"></a>
 						</li>
-						<li>
-							<a href="//google.com"><img class="logo_sidebar"
-									src="./img_comment/icon/team_icon.png">ЭКИПАЖ</a>
+						<li class="socials__item">
+							<a href="" class="socials__link socials__link_google"></a>
+						</li>
+						<li class="socials__item">
+							<a href="" class="socials__link socials__link_twitter"></a>
+						</li>
+						<li class="socials__item">
+							<a href="" class="socials__link socials__link_mail"></a>
 						</li>
 					</ul>
-				</nav>
-			</aside><!-- .left-sidebar -->
-
-		</div><!-- .middle-->
-
-	</div><!-- .wrapper -->
-
-	<footer class="footer">
-		<img class="logo_footer" src="./img_comment/logo_header.png" alt="logo_air_planet">
-	</footer><!-- .footer -->
-
+				</div>
+			</div>
+		</div>
+	</footer>
 </body>
 
 </html>
+<!--brackets.io-->

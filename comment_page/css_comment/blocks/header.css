@@ -1,0 +1,49 @@
+.header {
+	background: #4b73b5;
+	min-height: 77px;
+	margin-bottom: 50px;
+	position: relative;
+ 
+}
+
+.header__info {
+	float: left;
+	width: 48%;
+	padding-top: 20px;
+
+}
+
+.header__info--right {
+	text-align: right;
+}
+
+.contacts {
+	display: inline-block; 
+	vertical-align: top; 
+   
+}
+
+.contacts__phone {
+	font-weight: bold;
+	font-size: 21px;
+	color: #fff;
+	text-decoration: none;
+  
+}
+
+.contacts__link {
+	color: rgba(255, 255, 255, .7);
+	font-size: 14px;
+	font-weight: bold;
+		
+}
+
+.contacts__nav-item {
+	position: relative;
+	
+}
+
+.contacts__nav-item:hover .dropdown {
+	top: 100%;
+	
+}

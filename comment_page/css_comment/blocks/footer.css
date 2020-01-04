@@ -1,0 +1,36 @@
+.footer {
+	background: #4b73b5; 
+	width: 100%;
+	padding: 20px;
+	font-size: 0;
+			
+}
+
+.footer__info {
+	width: 33.33%;
+	display: inline-block;
+	font-size: 14px;
+	color: #fff;
+	text-decoration: none;
+	vertical-align: middle;
+				
+}
+
+.footer__info-txt {
+	font-weight: 400;
+	float: left;
+	width: 75%;
+	
+}
+	
+
+.footer__info--center {
+	text-align: center;
+	
+}
+
+.footer__info--right {
+	width: 29.33%;
+	text-align: right;
+	
+}
