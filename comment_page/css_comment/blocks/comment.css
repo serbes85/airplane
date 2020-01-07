@@ -9,18 +9,18 @@
 		
 }
 
-.news {
+.comment {
 	border-bottom: 1px solid #e8e9ed;
-	
+		
 }
 
-.news__img {
+.comment__img {
 	width: 100%;
 	height: 100%;
 	  
 }
 
-.news__img-wrapper {
+.comment__img-wrapper {
 	width: 160px;
 	height: 160px;
 	border-radius: 50%;
@@ -30,7 +30,7 @@
 		
 }
 
-.news__description {
+.comment__description {
 	color: #221f1f;
 	font-size: 18px; 
 	font-weight: 400;
@@ -41,13 +41,13 @@
 	padding: 35px;
 }
 
-.news__date {
+.comment__date {
 	font-size: 14px; 
 	font-weight: 300;
 	
 }
 
-.news__title {
+.comment__title {
 	font-size: 18px; 
 	font-weight: 700;
 		

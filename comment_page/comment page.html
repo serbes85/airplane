@@ -1,9 +1,9 @@
 <!DOCTYPE html>
-<html lang="ru">
+<html lang="ru-RU">
 
 <head>
 	<meta charset="utf-8" />
-	<title>main page</title>
+	<title>comment page</title>
 	<meta name="viewport" content="width=device-width, initial-scale=1.0">
 	<link rel="apple-touch-icon" sizes="180x180" href="favicon/apple-touch-icon.png">
 	<link rel="icon" type="image/png" sizes="32x32" href="favicon/favicon-32x32.png">
@@ -87,14 +87,14 @@
 							<div class="section__content">
 								<ul class="list list--colum">
 									<li class="list__item list__item--colum">
-										<div class="news">
-											<div class="news__img-wrapper">
+										<div class="comment">
+											<div class="comment__img-wrapper">
 												<img src="./img_comment/people/irina.png" alt="foto_person"
-													class="news__img">
+													class="comment__img">
 											</div>
-											<div class="news__description">
-												<time class="news__date">12.10.2016</time>
-												<p class="news__title">Ирина Паламарчук</p>
+											<div class="comment__description">
+												<time class="comment__date">12.10.2016</time>
+												<p class="comment__title">Ирина Паламарчук</p>
 												<p>Классный полет, трясло первые полчаса так, что я боялась отстегнуть
 													ремни.
 													Слава Богу, ничего не случилось, но мне даже валерьянка не помогла,
@@ -106,14 +106,14 @@
 										</div>
 									</li>
 									<li class="list__item list__item--colum">
-										<div class="news">
-											<div class="news__img-wrapper">
+										<div class="comment">
+											<div class="comment__img-wrapper">
 												<img src="./img_comment/people/alexandr.png" alt="foto_person"
-													class="news__img">
+													class="comment__img">
 											</div>
-											<div class="news__description">
-												<time class="news__date">01.02.2016</time>
-												<p class="news__title">Александр Бельков</p>
+											<div class="comment__description">
+												<time class="comment__date">01.02.2016</time>
+												<p class="comment__title">Александр Бельков</p>
 												<p>Все понравилось, вежливые стюардессы, вовремя убирают, напитки
 													предлагали 2 раза, а еду – 1 раз. Единственное, что не понравилось,
 													как то мало
@@ -123,14 +123,14 @@
 										</div>
 									</li>
 									<li class="list__item list__item--colum">
-										<div class="news">
-											<div class="news__img-wrapper">
+										<div class="comment">
+											<div class="comment__img-wrapper">
 												<img src="./img_comment/people/igor.png" alt="foto_person"
-													class="news__img">
+													class="comment__img">
 											</div>
-											<div class="news__description">
-												<time class="news__date">22.12.2015</time>
-												<p class="news__title">Игорь Николаенко</p>
+											<div class="comment__description">
+												<time class="comment__date">22.12.2015</time>
+												<p class="comment__title">Игорь Николаенко</p>
 												<p>Кормили супер вообще! Сказали, что это из-за того, что полет менее
 													2,5 часов. Но прибавьте к этому время регистрации в аэропорту. Летел
 													с
@@ -142,14 +142,14 @@
 										</div>
 									</li>
 									<li class="list__item list__item--colum">
-										<div class="news">
-											<div class="news__img-wrapper">
+										<div class="comment">
+											<div class="comment__img-wrapper">
 												<img src="./img_comment/people/anastasia.png" alt="foto_person"
-													class="news__img">
+													class="comment__img">
 											</div>
-											<div class="news__description">
-												<time class="news__date">14.08.2015</time>
-												<p class="news__title">Анастасия Порядная</p>
+											<div class="comment__description">
+												<time class="comment__date">14.08.2015</time>
+												<p class="comment__title">Анастасия Порядная</p>
 												<p>За такую цену просто все отлично! Кто не доволен, платите в 2 раза
 													больше за аналогичные рейсы. Мне понравилось, что на борту было
 													чисто, я аллергик
@@ -190,9 +190,59 @@
 								</ul>
 								<a href="" class="pagination__btn pagination__btn_next">></a>
 					</div>
-
 				</div>
 			</div>
+		</div>
+		<div class="reservation">
+			<div class="container">
+				<div class="reservation__contact">
+					<p>Вопросы по бронированию билетов в нашей авиакомпании принимаются. Для этого
+						можно оставить <a href="" class="reservation__link">заявку на сайте</a> или же позвонить по
+						номеру
+						круглосуточной поддержки <a href="tel: +78000039210" class="reservation__phone">8 (800)
+							00-392-10 </a>
+					</p>
+				</div>
+			</div>
+		</div>
+		<div class="container container--form">
+			<form method="get" action="" class="form">
+				<h2 class="section__title">Оставить отзыв</h2>
+				<div class="form__comment form__comment--name">
+					<p class="form__comment-label">
+						<label for="name"  class="label">Ваше имя</label>
+					</p>
+					<input type="text" name="first_name" id="name" placeholder="Андрей" class="input input--left"
+						required>
+				</div>
+				<div class="form__comment form__comment--link">
+					<p class="form__comment-label">
+						<label for="link" class="label">Cсылка на профиль VK</label>
+					</p>
+					<input type="text" name="link_VK" id="link" placeholder="vk.com/example" class="input input--right"
+						required>
+				</div>
+				<div class="form__txt">
+					<p class="form__comment-label">
+						<label for="txt">Текст отзыва</label>
+					</p>
+					<textarea name="comment" id="txt" placeholder="Мне понравилось" class="textarea"></textarea>
+				</div>
+				<div class="wrapper__button">
+					<p>Отображать фото в отзыве?</p>
+					<div class="button__item button--left">
+						<input class="radio" type="radio" name="radio" id="radio__button1" checked> <label for="radio__button1">Да</label>
+						<input class="radio" type="radio" name="radio" id="radio__button2"> <label for="radio__button2">Нет</label>
+					</div>				
+					<div class="button__item">
+						<button  class="button__send" type="submit">
+							<div class="button__item-txt">ОТПРАВИТЬ</div>
+							<div class="button__icon button__icon_send"></div>
+						</button>
+						
+					</div>
+				</div>
+			</form>
 		</div>
 	</div>
 	<footer class="footer">

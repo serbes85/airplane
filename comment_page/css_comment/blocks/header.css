@@ -8,7 +8,7 @@
 
 .header__info {
 	float: left;
-	width: 48%;
+	width: 50%;
 	padding-top: 20px;
 
 }
@@ -39,7 +39,7 @@
 }
 
 .contacts__nav-item {
-	position: relative;
+	 position: relative;
 	
 }
 
