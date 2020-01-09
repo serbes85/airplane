@@ -1,0 +1,90 @@
+.list {
+	font-size: 0px;
+	margin-bottom: 40px;
+	
+}
+
+.list__partner {
+	width: 33.33%;
+	padding: 25px;
+	display: inline-block;
+	vertical-align: top;
+		
+}
+
+.team {
+	text-align: center;
+	
+}
+
+.logo__img {
+	width: 160px;
+	height: 160px;
+	margin: 0 auto;
+
+}
+
+.logo__img-bmp {
+    background: url('../../img_team/patner/bmp.png') 0 0 no-repeat;
+    background-position: center center;
+		
+}
+
+.logo__img-tetra {
+    background: url('../../img_team/patner/tetra.png') 0 0 no-repeat;
+    background-position: center center;
+	
+}
+
+.logo__img-s {
+    background: url('../../img_team/patner/s_air.png') 0 0 no-repeat;
+    background-position: center center;
+	
+}
+
+.logo__img-one {
+    background: url('../../img_team/patner/one_air.png') 0 0 no-repeat;
+    background-position: center center;
+	
+}
+
+.logo__img-bingair {
+    background: url('../../img_team/patner/bingair.png') 0 0 no-repeat;
+    background-position: center center;
+	
+}
+
+.logo__img-ural {
+    background: url('../../img_team/patner/ural.png') 0 0 no-repeat;
+    background-position: center center;
+	
+}
+
+.list__link:hover .logo__img-bmp {
+    background: url('../../img_team/patner/bmp-hover.png') 0 0 no-repeat;
+    background-position: center center;
+
+}
+
+.list__link:hover .logo__img-tetra {
+    background: url('../../img_team/patner/tetra-hover.png') 0 0 no-repeat;
+    background-position: center center;
+
+}
+
+  .list__link:hover .logo__img-one {
+    background: url('../../img_team/patner/one_air-hover.png') 0 0 no-repeat;
+    background-position: center center;
+
+}
+
+.list__link:hover .logo__img-bingair {
+    background: url('../../img_team/patner/bingair-hover.png') 0 0 no-repeat;
+    background-position: center center;
+
+}
+
+.list__link:hover .logo__img-ural {
+    background: url('../../img_team/patner/ural-hover.png') 0 0 no-repeat;
+    background-position: center center;
+  }

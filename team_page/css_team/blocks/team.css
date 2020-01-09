@@ -1,0 +1,79 @@
+.list {
+	font-size: 0px;
+	margin-bottom: 40px;
+	
+}
+
+.list__team {
+	width: 33.33%;
+	padding: 25px;
+	display: inline-block;
+	vertical-align: top;
+		
+}
+
+.person {
+	text-align: center;
+	line-height: 1.5;
+}
+
+.person__img {
+	width: 160px;
+	height: 160px;
+	margin: 0 auto;
+
+}
+
+.person__img-alex {
+	background: url('../../img_team/team/alex-photo.png') 0 0 no-repeat;
+		
+}
+
+.person__img-inna {
+	background: url('../../img_team/team/inna-photo.png') 0 0 no-repeat;
+	
+}
+
+.person__img-boris {
+	background: url('../../img_team/team/boris-photo.png') 0 0 no-repeat;
+	
+}
+
+.person__img-elina {
+	background: url('../../img_team/team/elina-photo.png') 0 0 no-repeat;
+	
+}
+
+.person__img-elena {
+	background: url('../../img_team/team/elena-photo.png') 0 0 no-repeat;
+	
+}
+
+.person__img-yrii {
+	background: url('../../img_team/team/yrii-photo.png') 0 0 no-repeat;
+	
+}
+
+.person__name {
+	color: #212121;
+	font-size: 18px;
+	font-weight: 700;
+	padding: 5px 0px;
+					
+}
+
+.person__profession {
+	color: #4b73b5;
+	font-size: 14px;
+	font-weight: 700;
+	padding: 5px 0px;
+			
+}
+
+.person__description {
+	color: #221f1f;
+	font-size: 14px;
+	font-weight: 300;
+				
+}
+
