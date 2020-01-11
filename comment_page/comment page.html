@@ -12,7 +12,7 @@
 	<meta name="msapplication-TileColor" content="#da532c">
 	<meta name="theme-color" content="#ffffff">
 	<!--<link href="css_main/layout/normalize.css" rel="stylesheet">-->
-	<link href="css_comment/main.css" rel="stylesheet">
+	<link href="css_comment/comment.css" rel="stylesheet">
 </head>
 
 <body>
@@ -62,7 +62,7 @@
 								</a>
 							</li>
 							<li class="nav__item">
-								<a href="" target="_blank" class="nav__link">
+								<a href="../team_page/team page.html" target="_blank" class="nav__link">
 									<div class="nav__icon nav__icon_team"></div>
 									<div class="nav__text">ЭКИПАЖ</div>
 								</a>
@@ -200,7 +200,7 @@
 						можно оставить <a href="" class="reservation__link">заявку на сайте</a> или же позвонить по
 						номеру
 						круглосуточной поддержки <a href="tel: +78000039210" class="reservation__phone">8 (800)
-							00-392-10 </a>
+							00-392-10. </a>
 					</p>
 				</div>
 			</div>
@@ -228,11 +228,23 @@
 					</p>
 					<textarea name="comment" id="txt" placeholder="Мне понравилось" class="textarea"></textarea>
 				</div>
-				<div class="wrapper__button">
-					<p>Отображать фото в отзыве?</p>
-					<div class="button__item button--left">
-						<input class="radio" type="radio" name="radio" id="radio__button1" checked> <label for="radio__button1">Да</label>
-						<input class="radio" type="radio" name="radio" id="radio__button2"> <label for="radio__button2">Нет</label>
+				<div class="form__buttons">
+					<div class="radio-buttons radio-buttons--left">
+						<p class="radio-buttons__title">Отображать фото в отзыве?</p>
+						<div class="radio-buttons__item">
+							<input class="radio-buttons__input" type="radio" name="radio" id="radio__button1" checked> 
+							<label class="radio-buttons__label" for="radio__button1">
+								<span class="radio-buttons__decore"></span>
+								<span class="radio-buttons__txt">Да</span>								
+							</label>
+						</div>
+						<div class="radio-buttons__item">
+							<input class="radio-buttons__input" type="radio" name="radio" id="radio__button2"> 
+							<label class="radio-buttons__label" for="radio__button2">
+								<span class="radio-buttons__decore"></span>
+								<span class="radio-buttons__txt">Нет</span>
+							</label>
+						</div>
 					</div>				
 					<div class="button__item">
 						<button  class="button__send" type="submit">
